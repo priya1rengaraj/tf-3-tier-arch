@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.tfstate.backup
 
 # Crash log files
 crash.log
@@ -35,3 +36,50 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# OS files
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+
+# --------------------------------------------------------------------------------
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+.terraform.tfstate.lock.info
+
+# Terraform plan output
+*.tfplan
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# SSH Keys
+*.pem
+*.key
+
+# Environment files
+.env
